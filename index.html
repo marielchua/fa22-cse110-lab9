@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="main.js" type="module"></script>
+  <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
+
   <title>Lab 9</title>
 
   <style>
@@ -69,24 +72,25 @@
     </form>
 
     <section id="error-btns">
-      <button>Console Log</button>
-      <button>Console Error</button>
-      <button>Console Count</button>
-      <button>Console Warn</button>
-      <button>Console Assert</button>
-      <button>Console Clear</button>
-      <button>Console Dir</button>
-      <button>Console dirxml</button>
-      <button>Console Group Start</button>
-      <button>Console Group End</button>
-      <button>Console Table</button>
-      <button>Start Timer</button>
-      <button>End Timer</button>
-      <button>Console Trace</button>
-      <button>Trigger a Global Error</button>
+      <button id="console-log">Console Log</button>
+      <button id="console-error">Console Error</button>
+      <button id="console-count">Console Count</button>
+      <button id="console-warn">Console Warn</button>
+      <button id="console-assert">Console Assert</button>
+      <button id="console-clear">Console Clear</button>
+      <button id="console-dir">Console Dir</button>
+      <button id="console-dirxml">Console dirxml</button>
+      <button id="console-group-start">Console Group Start</button>
+      <button id="console-group-end">Console Group End</button>
+      <button id="console-table">Console Table</button>
+      <button id="console-start-timer">Start Timer</button>
+      <button id="console-end-timer">End Timer</button>
+      <button id="console-trace">Console Trace</button>
+      <button id="console-global-error">Trigger a Global Error</button>
     </section>
   </main>
 
+  <!--MOVED ALL TO main.js
   <script>
     let form = document.querySelector('form');
     form.addEventListener('submit', e => {
@@ -103,6 +107,7 @@
     // Start your code here
     // You may move this JS to another file if you wish
   </script>
+  -->
 </body>
 
 </html>
