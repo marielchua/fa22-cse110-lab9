@@ -153,9 +153,9 @@ function init(){
         errorBtns is commented out*/
         console.log(errorBtns);
     }catch(err){
-        throw new LogError('Was not able to log the array of error buttons');
+        throw new LogError('Was not able to log the array of error buttons (example try/catch/throw & custom error)');
     }finally{
-        console.log('Expected array should be array of error buttons');
+        console.log('Expected array should be array of error buttons (example try/catch/finally)');
     }
 
     //trying out TrackJS! should see this error in TrackJS records
